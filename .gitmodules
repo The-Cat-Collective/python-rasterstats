@@ -1,3 +1,0 @@
-[submodule "rasterstats/python-rasterstats"]
-	path = rasterstats/python-rasterstats
-	url = https://github.com/The-Cat-Collective/python-rasterstats
