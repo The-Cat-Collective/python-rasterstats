@@ -223,8 +223,8 @@ def gen_zonal_stats(
                     except AttributeError:
                         pixel_count = dict(
                             zip(
-                                [np.asscalar(k) for k in keys],
-                                [np.asscalar(c) for c in counts],
+                                [k.item() for k in keys],
+                                [c.item() for c in counts],
                             )
                         )
 
